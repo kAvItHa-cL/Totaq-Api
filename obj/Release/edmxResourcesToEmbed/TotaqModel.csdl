@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GTLOANModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AdharCardDocument">
+    <Key>
+      <PropertyRef Name="AdharCardId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdharCardUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdharCardId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__AdharCard__Phone__286302EC" FromRole="AdharCardDocument" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="AdminLogin">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="String" MaxLength="30" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="BankstatementDocument">
+    <Key>
+      <PropertyRef Name="BankStatmentId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BankstatementDocumentUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BankStatmentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__Bankstate__Phone__36B12243" FromRole="BankstatementDocument" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="BasicDetail">
+    <Key>
+      <PropertyRef Name="BasicDetailsId" />
+    </Key>
+    <Property Name="BasicDetailsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmailId" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="PANCard" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdharCard" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="KYCStatus" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__BasicDeta__Phone__15502E78" FromRole="BasicDetails" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="ContactUser">
+    <Key>
+      <PropertyRef Name="ContactId" />
+    </Key>
+    <Property Name="ContactId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmailId" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ErrorLog">
+    <Key>
+      <PropertyRef Name="ErrorLogId" />
+    </Key>
+    <Property Name="ErrorLogId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="InnerException" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Data" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Source" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="TargetSite" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="IDCardDocument">
+    <Key>
+      <PropertyRef Name="IdCardNo" />
+    </Key>
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IDCardUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IdCardNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__IDCardDoc__Phone__34C8D9D1" FromRole="IDCardDocument" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="LoanDetail">
+    <Key>
+      <PropertyRef Name="LoanDetailsId" />
+    </Key>
+    <Property Name="LoanDetailsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="LoanStatus" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LoanAmount" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="InterestRate" Type="Int32" Nullable="false" />
+    <Property Name="ProcessFee" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="LatePaymentCharges" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Duration" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DueDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PaymentReferenceNo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LoanTransactionNo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DateofLoan" Type="DateTime" Precision="3" />
+    <Property Name="PaymentDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__LoanDetai__Phone__20C1E124" FromRole="LoanDetails" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="Notification">
+    <Key>
+      <PropertyRef Name="NotificationId" />
+    </Key>
+    <Property Name="NotificationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__Notificat__Phone__440B1D61" FromRole="Notification" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="OneTimeFee">
+    <Key>
+      <PropertyRef Name="OneTimeFeeID" />
+    </Key>
+    <Property Name="OneTimeFeeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="FeeTransactionNo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Fee" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__Processin__Phone__239E4DCF" FromRole="OneTimeFee" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="PANCardDocument">
+    <Key>
+      <PropertyRef Name="PANCardId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PANCardUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PANCardId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__PANCardDo__Phone__2F10007B" FromRole="PANCardDocument" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentsId" />
+    </Key>
+    <Property Name="PaymentsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LoanAmount" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Intrest" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ProessingFee" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DueDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PaymentStatus" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__Payments__PhoneN__2B3F6F97" FromRole="Payments" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="PaySlipDocument">
+    <Key>
+      <PropertyRef Name="PayslipId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PaySlipUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PayslipId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__PaySlipDo__Phone__2D27B809" FromRole="PaySlipDocument" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="PersonalDetail">
+    <Key>
+      <PropertyRef Name="PersonalDetailsId" />
+    </Key>
+    <Property Name="PersonalDetailsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="FatherName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MotherName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DOB" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MaritalStatus" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CurrentAddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__PersonalD__Phone__182C9B23" FromRole="PersonalDetails" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="ProfessionalDetail">
+    <Key>
+      <PropertyRef Name="ProfessionalDetailsId" />
+    </Key>
+    <Property Name="ProfessionalDetailsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MonthlyIncome" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="YearOfExperience" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CurrentEMI" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="CompanyAddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CompanyEmailId" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__Professio__Phone__1B0907CE" FromRole="ProfessionalDetails" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="ReferenceDetail">
+    <Key>
+      <PropertyRef Name="ReferenceId" />
+    </Key>
+    <Property Name="ReferenceId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Reference1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ReferenceName1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Reference2" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ReferenceName2" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__Reference__Phone__1DE57479" FromRole="ReferenceDetails" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="Register">
+    <Key>
+      <PropertyRef Name="PhoneNumber" />
+    </Key>
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CRN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="AdharCardDocuments" Relationship="Self.FK__AdharCard__Phone__286302EC" FromRole="Register" ToRole="AdharCardDocument" />
+    <NavigationProperty Name="BankstatementDocuments" Relationship="Self.FK__Bankstate__Phone__36B12243" FromRole="Register" ToRole="BankstatementDocument" />
+    <NavigationProperty Name="BasicDetails" Relationship="Self.FK__BasicDeta__Phone__15502E78" FromRole="Register" ToRole="BasicDetails" />
+    <NavigationProperty Name="IDCardDocuments" Relationship="Self.FK__IDCardDoc__Phone__34C8D9D1" FromRole="Register" ToRole="IDCardDocument" />
+    <NavigationProperty Name="LoanDetails" Relationship="Self.FK__LoanDetai__Phone__20C1E124" FromRole="Register" ToRole="LoanDetails" />
+    <NavigationProperty Name="Notifications" Relationship="Self.FK__Notificat__Phone__440B1D61" FromRole="Register" ToRole="Notification" />
+    <NavigationProperty Name="OneTimeFees" Relationship="Self.FK__Processin__Phone__239E4DCF" FromRole="Register" ToRole="OneTimeFee" />
+    <NavigationProperty Name="PANCardDocuments" Relationship="Self.FK__PANCardDo__Phone__2F10007B" FromRole="Register" ToRole="PANCardDocument" />
+    <NavigationProperty Name="Payments" Relationship="Self.FK__Payments__PhoneN__2B3F6F97" FromRole="Register" ToRole="Payments" />
+    <NavigationProperty Name="PaySlipDocuments" Relationship="Self.FK__PaySlipDo__Phone__2D27B809" FromRole="Register" ToRole="PaySlipDocument" />
+    <NavigationProperty Name="PersonalDetails" Relationship="Self.FK__PersonalD__Phone__182C9B23" FromRole="Register" ToRole="PersonalDetails" />
+    <NavigationProperty Name="ProfessionalDetails" Relationship="Self.FK__Professio__Phone__1B0907CE" FromRole="Register" ToRole="ProfessionalDetails" />
+    <NavigationProperty Name="ReferenceDetails" Relationship="Self.FK__Reference__Phone__1DE57479" FromRole="Register" ToRole="ReferenceDetails" />
+    <NavigationProperty Name="SelfieDocuments" Relationship="Self.FK__SelfieDoc__Phone__30F848ED" FromRole="Register" ToRole="SelfieDocument" />
+    <NavigationProperty Name="SignatureDocuments" Relationship="Self.FK__Signature__Phone__32E0915F" FromRole="Register" ToRole="SignatureDocument" />
+    <NavigationProperty Name="UserContacts" Relationship="Self.FK__UserConta__Phone__4BAC3F29" FromRole="Register" ToRole="UserContact" />
+  </EntityType>
+  <EntityType Name="SelfieDocument">
+    <Key>
+      <PropertyRef Name="SelfieId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SelfieUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SelfieId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__SelfieDoc__Phone__30F848ED" FromRole="SelfieDocument" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="SignatureDocument">
+    <Key>
+      <PropertyRef Name="SignatureId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SignatureUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SignatureId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__Signature__Phone__32E0915F" FromRole="SignatureDocument" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="UserContact">
+    <Key>
+      <PropertyRef Name="ContactID" />
+    </Key>
+    <Property Name="ContactID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Register" Relationship="Self.FK__UserConta__Phone__4BAC3F29" FromRole="UserContact" ToRole="Register" />
+  </EntityType>
+  <Association Name="FK__AdharCard__Phone__286302EC">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="AdharCardDocument" Type="Self.AdharCardDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="AdharCardDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bankstate__Phone__36B12243">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="BankstatementDocument" Type="Self.BankstatementDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="BankstatementDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BasicDeta__Phone__15502E78">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="BasicDetails" Type="Self.BasicDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="BasicDetails">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__IDCardDoc__Phone__34C8D9D1">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="IDCardDocument" Type="Self.IDCardDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="IDCardDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LoanDetai__Phone__20C1E124">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="LoanDetails" Type="Self.LoanDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="LoanDetails">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notificat__Phone__440B1D61">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="Notification" Type="Self.Notification" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="Notification">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Processin__Phone__239E4DCF">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="OneTimeFee" Type="Self.OneTimeFee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="OneTimeFee">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PANCardDo__Phone__2F10007B">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="PANCardDocument" Type="Self.PANCardDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="PANCardDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Payments__PhoneN__2B3F6F97">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="Payments" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="Payments">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PaySlipDo__Phone__2D27B809">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="PaySlipDocument" Type="Self.PaySlipDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="PaySlipDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PersonalD__Phone__182C9B23">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="PersonalDetails" Type="Self.PersonalDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="PersonalDetails">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Professio__Phone__1B0907CE">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="ProfessionalDetails" Type="Self.ProfessionalDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="ProfessionalDetails">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reference__Phone__1DE57479">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="ReferenceDetails" Type="Self.ReferenceDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="ReferenceDetails">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SelfieDoc__Phone__30F848ED">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="SelfieDocument" Type="Self.SelfieDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="SelfieDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Signature__Phone__32E0915F">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="SignatureDocument" Type="Self.SignatureDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="SignatureDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserConta__Phone__4BAC3F29">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="UserContact" Type="Self.UserContact" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="UserContact">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GTLOANEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AdharCardDocuments" EntityType="Self.AdharCardDocument" />
+    <EntitySet Name="AdminLogins" EntityType="Self.AdminLogin" />
+    <EntitySet Name="BankstatementDocuments" EntityType="Self.BankstatementDocument" />
+    <EntitySet Name="BasicDetails" EntityType="Self.BasicDetail" />
+    <EntitySet Name="ContactUsers" EntityType="Self.ContactUser" />
+    <EntitySet Name="ErrorLogs" EntityType="Self.ErrorLog" />
+    <EntitySet Name="IDCardDocuments" EntityType="Self.IDCardDocument" />
+    <EntitySet Name="LoanDetails" EntityType="Self.LoanDetail" />
+    <EntitySet Name="Notifications" EntityType="Self.Notification" />
+    <EntitySet Name="OneTimeFees" EntityType="Self.OneTimeFee" />
+    <EntitySet Name="PANCardDocuments" EntityType="Self.PANCardDocument" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="PaySlipDocuments" EntityType="Self.PaySlipDocument" />
+    <EntitySet Name="PersonalDetails" EntityType="Self.PersonalDetail" />
+    <EntitySet Name="ProfessionalDetails" EntityType="Self.ProfessionalDetail" />
+    <EntitySet Name="ReferenceDetails" EntityType="Self.ReferenceDetail" />
+    <EntitySet Name="Registers" EntityType="Self.Register" />
+    <EntitySet Name="SelfieDocuments" EntityType="Self.SelfieDocument" />
+    <EntitySet Name="SignatureDocuments" EntityType="Self.SignatureDocument" />
+    <EntitySet Name="UserContacts" EntityType="Self.UserContact" />
+    <AssociationSet Name="FK__AdharCard__Phone__286302EC" Association="Self.FK__AdharCard__Phone__286302EC">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="AdharCardDocument" EntitySet="AdharCardDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bankstate__Phone__36B12243" Association="Self.FK__Bankstate__Phone__36B12243">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="BankstatementDocument" EntitySet="BankstatementDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BasicDeta__Phone__15502E78" Association="Self.FK__BasicDeta__Phone__15502E78">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="BasicDetails" EntitySet="BasicDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__IDCardDoc__Phone__34C8D9D1" Association="Self.FK__IDCardDoc__Phone__34C8D9D1">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="IDCardDocument" EntitySet="IDCardDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LoanDetai__Phone__20C1E124" Association="Self.FK__LoanDetai__Phone__20C1E124">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="LoanDetails" EntitySet="LoanDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notificat__Phone__440B1D61" Association="Self.FK__Notificat__Phone__440B1D61">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="Notification" EntitySet="Notifications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Processin__Phone__239E4DCF" Association="Self.FK__Processin__Phone__239E4DCF">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="OneTimeFee" EntitySet="OneTimeFees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PANCardDo__Phone__2F10007B" Association="Self.FK__PANCardDo__Phone__2F10007B">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="PANCardDocument" EntitySet="PANCardDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Payments__PhoneN__2B3F6F97" Association="Self.FK__Payments__PhoneN__2B3F6F97">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="Payments" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PaySlipDo__Phone__2D27B809" Association="Self.FK__PaySlipDo__Phone__2D27B809">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="PaySlipDocument" EntitySet="PaySlipDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PersonalD__Phone__182C9B23" Association="Self.FK__PersonalD__Phone__182C9B23">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="PersonalDetails" EntitySet="PersonalDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Professio__Phone__1B0907CE" Association="Self.FK__Professio__Phone__1B0907CE">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="ProfessionalDetails" EntitySet="ProfessionalDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reference__Phone__1DE57479" Association="Self.FK__Reference__Phone__1DE57479">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="ReferenceDetails" EntitySet="ReferenceDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SelfieDoc__Phone__30F848ED" Association="Self.FK__SelfieDoc__Phone__30F848ED">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="SelfieDocument" EntitySet="SelfieDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Signature__Phone__32E0915F" Association="Self.FK__Signature__Phone__32E0915F">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="SignatureDocument" EntitySet="SignatureDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserConta__Phone__4BAC3F29" Association="Self.FK__UserConta__Phone__4BAC3F29">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="UserContact" EntitySet="UserContacts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

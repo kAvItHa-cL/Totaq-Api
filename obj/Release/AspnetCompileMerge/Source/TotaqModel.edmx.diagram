@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8d551d9f2c1744a1aeced6700024867a" Name="Diagram1">
+        <EntityTypeShape EntityType="GTLOANModel.AdharCardDocument" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.AdminLogin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.BankstatementDocument" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.BasicDetail" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.ContactUser" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.ErrorLog" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.IDCardDocument" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.LoanDetail" Width="1.5" PointX="3" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.Notification" Width="1.5" PointX="3" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.OneTimeFee" Width="1.5" PointX="3" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.PANCardDocument" Width="1.5" PointX="3" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.Payment" Width="1.5" PointX="3" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.PaySlipDocument" Width="1.5" PointX="3" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.PersonalDetail" Width="1.5" PointX="3" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.ProfessionalDetail" Width="1.5" PointX="3" PointY="36.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.ReferenceDetail" Width="1.5" PointX="3" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.Register" Width="1.5" PointX="0.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.SelfieDocument" Width="1.5" PointX="3" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.SignatureDocument" Width="1.5" PointX="3" PointY="45.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTLOANModel.UserContact" Width="1.5" PointX="3" PointY="48.125" IsExpanded="true" />
+        <AssociationConnector Association="GTLOANModel.FK__AdharCard__Phone__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__Bankstate__Phone__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__BasicDeta__Phone__15502E78" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__IDCardDoc__Phone__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__LoanDetai__Phone__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__Notificat__Phone__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__Processin__Phone__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__PANCardDo__Phone__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__Payments__PhoneN__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__PaySlipDo__Phone__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__PersonalD__Phone__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__Professio__Phone__1B0907CE" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__Reference__Phone__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__SelfieDoc__Phone__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__Signature__Phone__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="GTLOANModel.FK__UserConta__Phone__4BAC3F29" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

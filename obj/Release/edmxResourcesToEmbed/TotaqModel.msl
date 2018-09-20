@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GTLOANModelStoreContainer" CdmEntityContainer="GTLOANEntities">
+    <EntitySetMapping Name="AdharCardDocuments">
+      <EntityTypeMapping TypeName="GTLOANModel.AdharCardDocument">
+        <MappingFragment StoreEntitySet="AdharCardDocument">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="AdharCardUrl" ColumnName="AdharCardUrl" />
+          <ScalarProperty Name="AdharCardId" ColumnName="AdharCardId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdminLogins">
+      <EntityTypeMapping TypeName="GTLOANModel.AdminLogin">
+        <MappingFragment StoreEntitySet="AdminLogin">
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BankstatementDocuments">
+      <EntityTypeMapping TypeName="GTLOANModel.BankstatementDocument">
+        <MappingFragment StoreEntitySet="BankstatementDocument">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="BankstatementDocumentUrl" ColumnName="BankstatementDocumentUrl" />
+          <ScalarProperty Name="BankStatmentId" ColumnName="BankStatmentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BasicDetails">
+      <EntityTypeMapping TypeName="GTLOANModel.BasicDetail">
+        <MappingFragment StoreEntitySet="BasicDetails">
+          <ScalarProperty Name="BasicDetailsId" ColumnName="BasicDetailsId" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PANCard" ColumnName="PANCard" />
+          <ScalarProperty Name="AdharCard" ColumnName="AdharCard" />
+          <ScalarProperty Name="KYCStatus" ColumnName="KYCStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactUsers">
+      <EntityTypeMapping TypeName="GTLOANModel.ContactUser">
+        <MappingFragment StoreEntitySet="ContactUser">
+          <ScalarProperty Name="ContactId" ColumnName="ContactId" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ErrorLogs">
+      <EntityTypeMapping TypeName="GTLOANModel.ErrorLog">
+        <MappingFragment StoreEntitySet="ErrorLog">
+          <ScalarProperty Name="ErrorLogId" ColumnName="ErrorLogId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="InnerException" ColumnName="InnerException" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="TargetSite" ColumnName="TargetSite" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IDCardDocuments">
+      <EntityTypeMapping TypeName="GTLOANModel.IDCardDocument">
+        <MappingFragment StoreEntitySet="IDCardDocument">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="IDCardUrl" ColumnName="IDCardUrl" />
+          <ScalarProperty Name="IdCardNo" ColumnName="IdCardNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoanDetails">
+      <EntityTypeMapping TypeName="GTLOANModel.LoanDetail">
+        <MappingFragment StoreEntitySet="LoanDetails">
+          <ScalarProperty Name="LoanDetailsId" ColumnName="LoanDetailsId" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="LoanStatus" ColumnName="LoanStatus" />
+          <ScalarProperty Name="LoanAmount" ColumnName="LoanAmount" />
+          <ScalarProperty Name="InterestRate" ColumnName="InterestRate" />
+          <ScalarProperty Name="ProcessFee" ColumnName="ProcessFee" />
+          <ScalarProperty Name="LatePaymentCharges" ColumnName="LatePaymentCharges" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="PaymentReferenceNo" ColumnName="PaymentReferenceNo" />
+          <ScalarProperty Name="LoanTransactionNo" ColumnName="LoanTransactionNo" />
+          <ScalarProperty Name="DateofLoan" ColumnName="DateofLoan" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notifications">
+      <EntityTypeMapping TypeName="GTLOANModel.Notification">
+        <MappingFragment StoreEntitySet="Notification">
+          <ScalarProperty Name="NotificationId" ColumnName="NotificationId" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OneTimeFees">
+      <EntityTypeMapping TypeName="GTLOANModel.OneTimeFee">
+        <MappingFragment StoreEntitySet="OneTimeFee">
+          <ScalarProperty Name="OneTimeFeeID" ColumnName="OneTimeFeeID" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="FeeTransactionNo" ColumnName="FeeTransactionNo" />
+          <ScalarProperty Name="Fee" ColumnName="Fee" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PANCardDocuments">
+      <EntityTypeMapping TypeName="GTLOANModel.PANCardDocument">
+        <MappingFragment StoreEntitySet="PANCardDocument">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PANCardUrl" ColumnName="PANCardUrl" />
+          <ScalarProperty Name="PANCardId" ColumnName="PANCardId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="GTLOANModel.Payment">
+        <MappingFragment StoreEntitySet="Payments">
+          <ScalarProperty Name="PaymentsId" ColumnName="PaymentsId" />
+          <ScalarProperty Name="LoanAmount" ColumnName="LoanAmount" />
+          <ScalarProperty Name="Intrest" ColumnName="Intrest" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="ProessingFee" ColumnName="ProessingFee" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaySlipDocuments">
+      <EntityTypeMapping TypeName="GTLOANModel.PaySlipDocument">
+        <MappingFragment StoreEntitySet="PaySlipDocument">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PaySlipUrl" ColumnName="PaySlipUrl" />
+          <ScalarProperty Name="PayslipId" ColumnName="PayslipId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonalDetails">
+      <EntityTypeMapping TypeName="GTLOANModel.PersonalDetail">
+        <MappingFragment StoreEntitySet="PersonalDetails">
+          <ScalarProperty Name="PersonalDetailsId" ColumnName="PersonalDetailsId" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="FatherName" ColumnName="FatherName" />
+          <ScalarProperty Name="MotherName" ColumnName="MotherName" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="MaritalStatus" ColumnName="MaritalStatus" />
+          <ScalarProperty Name="CurrentAddress" ColumnName="CurrentAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProfessionalDetails">
+      <EntityTypeMapping TypeName="GTLOANModel.ProfessionalDetail">
+        <MappingFragment StoreEntitySet="ProfessionalDetails">
+          <ScalarProperty Name="ProfessionalDetailsId" ColumnName="ProfessionalDetailsId" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="MonthlyIncome" ColumnName="MonthlyIncome" />
+          <ScalarProperty Name="YearOfExperience" ColumnName="YearOfExperience" />
+          <ScalarProperty Name="CurrentEMI" ColumnName="CurrentEMI" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="CompanyEmailId" ColumnName="CompanyEmailId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReferenceDetails">
+      <EntityTypeMapping TypeName="GTLOANModel.ReferenceDetail">
+        <MappingFragment StoreEntitySet="ReferenceDetails">
+          <ScalarProperty Name="ReferenceId" ColumnName="ReferenceId" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Reference1" ColumnName="Reference1" />
+          <ScalarProperty Name="ReferenceName1" ColumnName="ReferenceName1" />
+          <ScalarProperty Name="Reference2" ColumnName="Reference2" />
+          <ScalarProperty Name="ReferenceName2" ColumnName="ReferenceName2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Registers">
+      <EntityTypeMapping TypeName="GTLOANModel.Register">
+        <MappingFragment StoreEntitySet="Register">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CRN" ColumnName="CRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SelfieDocuments">
+      <EntityTypeMapping TypeName="GTLOANModel.SelfieDocument">
+        <MappingFragment StoreEntitySet="SelfieDocument">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="SelfieUrl" ColumnName="SelfieUrl" />
+          <ScalarProperty Name="SelfieId" ColumnName="SelfieId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SignatureDocuments">
+      <EntityTypeMapping TypeName="GTLOANModel.SignatureDocument">
+        <MappingFragment StoreEntitySet="SignatureDocument">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="SignatureUrl" ColumnName="SignatureUrl" />
+          <ScalarProperty Name="SignatureId" ColumnName="SignatureId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserContacts">
+      <EntityTypeMapping TypeName="GTLOANModel.UserContact">
+        <MappingFragment StoreEntitySet="UserContact">
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

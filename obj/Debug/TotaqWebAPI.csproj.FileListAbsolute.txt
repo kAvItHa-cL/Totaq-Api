@@ -1,0 +1,420 @@
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\TotaqWebAPI.dll.config
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\TotaqWebAPI.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\TotaqWebAPI.pdb
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\csc.exe
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\csc.exe.config
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\csc.rsp
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\csi.exe
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\csi.exe.config
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\csi.rsp
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.AppContext.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Console.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Diagnostics.Process.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.IO.Compression.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Security.Claims.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Threading.Thread.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.ValueTuple.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\vbc.exe
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\vbc.exe.config
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\vbc.rsp
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\EntityFramework.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\EntityFramework.SqlServer.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\Newtonsoft.Json.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\System.Net.Http.Formatting.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\System.Web.Http.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\System.Web.Http.WebHost.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\EntityFramework.xml
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\EntityFramework.SqlServer.xml
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\Newtonsoft.Json.xml
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\System.Net.Http.Formatting.xml
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\System.Web.Http.xml
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\System.Web.Http.WebHost.xml
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CoreCompileInputs.cache
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CopyComplete
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\obj\Debug\TotaqWebAPI.dll
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\obj\Debug\TotaqWebAPI.pdb
+D:\Totaq\TotaqWebAPI\TotaqWebAPI\obj\Debug\TotaqWebAPI.csprojAssemblyReference.cache
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.IO.Compression.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\TotaqWebAPI.dll.config
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\TotaqWebAPI.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\TotaqWebAPI.pdb
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\csc.exe
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\csc.exe.config
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\csc.rsp
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\csi.exe
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\csi.exe.config
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\csi.rsp
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.AppContext.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Console.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Diagnostics.Process.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Security.Claims.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Threading.Thread.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.ValueTuple.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\vbc.exe
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\vbc.exe.config
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\vbc.rsp
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\EntityFramework.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\EntityFramework.SqlServer.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\Newtonsoft.Json.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\System.Net.Http.Formatting.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\System.Web.Http.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\System.Web.Http.WebHost.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\EntityFramework.xml
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\EntityFramework.SqlServer.xml
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\Newtonsoft.Json.xml
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\System.Net.Http.Formatting.xml
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\System.Web.Http.xml
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\System.Web.Http.WebHost.xml
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\obj\Debug\TotaqWebAPI.csprojAssemblyReference.cache
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CoreCompileInputs.cache
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CopyComplete
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\obj\Debug\TotaqWebAPI.dll
+D:\Totaq\TotaqWebAPI  June 9\TotaqWebAPI\obj\Debug\TotaqWebAPI.pdb
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\TotaqWebAPI.dll.config
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\TotaqWebAPI.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\TotaqWebAPI.pdb
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\csc.exe
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\csc.exe.config
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\csc.rsp
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\csi.exe
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\csi.exe.config
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\csi.rsp
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.AppContext.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Console.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Diagnostics.Process.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.IO.Compression.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Security.Claims.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Threading.Thread.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.ValueTuple.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\vbc.exe
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\vbc.exe.config
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\vbc.rsp
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\EntityFramework.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\EntityFramework.SqlServer.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\Newtonsoft.Json.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\System.Net.Http.Formatting.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\System.Web.Http.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\System.Web.Http.WebHost.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\EntityFramework.xml
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\EntityFramework.SqlServer.xml
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\Newtonsoft.Json.xml
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\System.Net.Http.Formatting.xml
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\System.Web.Http.xml
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\System.Web.Http.WebHost.xml
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\obj\Debug\TotaqWebAPI.csprojAssemblyReference.cache
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CoreCompileInputs.cache
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CopyComplete
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\obj\Debug\TotaqWebAPI.dll
+D:\Totaq\TotaqWebAPI  June 14\TotaqWebAPI\obj\Debug\TotaqWebAPI.pdb
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\obj\Debug\TotaqWebAPI.csprojAssemblyReference.cache
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CoreCompileInputs.cache
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\TotaqWebAPI.dll.config
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\TotaqWebAPI.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\TotaqWebAPI.pdb
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\csc.exe
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\csc.exe.config
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\csc.rsp
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\csi.exe
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\csi.exe.config
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\csi.rsp
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.AppContext.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Console.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Diagnostics.Process.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.IO.Compression.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Security.Claims.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Threading.Thread.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.ValueTuple.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\vbc.exe
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\vbc.exe.config
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\vbc.rsp
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\EntityFramework.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\EntityFramework.SqlServer.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\Newtonsoft.Json.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\System.Net.Http.Formatting.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\System.Web.Http.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\System.Web.Http.WebHost.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\EntityFramework.xml
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\EntityFramework.SqlServer.xml
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\Newtonsoft.Json.xml
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\System.Net.Http.Formatting.xml
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\System.Web.Http.xml
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\System.Web.Http.WebHost.xml
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CopyComplete
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\obj\Debug\TotaqWebAPI.dll
+D:\Totaq\TotaqWebAPI  June 15\TotaqWebAPI\obj\Debug\TotaqWebAPI.pdb
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\TotaqWebAPI.dll.config
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\TotaqWebAPI.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\TotaqWebAPI.pdb
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csc.exe
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csc.exe.config
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csc.rsp
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csi.exe
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csi.exe.config
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csi.rsp
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.AppContext.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Console.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Diagnostics.Process.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.IO.Compression.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Claims.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Threading.Thread.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.ValueTuple.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\vbc.exe
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\vbc.exe.config
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\vbc.rsp
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\EntityFramework.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\EntityFramework.SqlServer.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\Newtonsoft.Json.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Net.Http.Formatting.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Web.Http.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Web.Http.WebHost.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\EntityFramework.xml
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\EntityFramework.SqlServer.xml
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\Newtonsoft.Json.xml
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Net.Http.Formatting.xml
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Web.Http.xml
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Web.Http.WebHost.xml
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\obj\Debug\TotaqWebAPI.csprojAssemblyReference.cache
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CoreCompileInputs.cache
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CopyComplete
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\obj\Debug\TotaqWebAPI.dll
+D:\Totaq\TotaqWebAPI  June 26\TotaqWebAPI\obj\Debug\TotaqWebAPI.pdb
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\TotaqWebAPI.dll.config
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\TotaqWebAPI.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\TotaqWebAPI.pdb
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csc.exe
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csc.exe.config
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csc.rsp
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csi.exe
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csi.exe.config
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\csi.rsp
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.AppContext.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Console.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Diagnostics.Process.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.IO.Compression.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.IO.Pipes.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Claims.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Threading.Thread.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.ValueTuple.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\vbc.exe
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\vbc.exe.config
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\vbc.rsp
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\EntityFramework.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\EntityFramework.SqlServer.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\Newtonsoft.Json.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Net.Http.Formatting.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Web.Http.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Web.Http.WebHost.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\EntityFramework.xml
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\EntityFramework.SqlServer.xml
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\Newtonsoft.Json.xml
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Net.Http.Formatting.xml
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Web.Http.xml
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\System.Web.Http.WebHost.xml
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CoreCompileInputs.cache
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\obj\Debug\TotaqWebAPI.csproj.CopyComplete
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\obj\Debug\TotaqWebAPI.dll
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\obj\Debug\TotaqWebAPI.pdb
+C:\Android\Totaq Webapp\TotaqWebAPI  June 26\TotaqWebAPI  June 26\TotaqWebAPI\obj\Debug\TotaqWebAPI.csprojResolveAssemblyReference.cache

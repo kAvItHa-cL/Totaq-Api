@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GTLOANModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AdharCardDocument">
+    <Key>
+      <PropertyRef Name="AdharCardId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="AdharCardUrl" Type="varchar(max)" Nullable="false" />
+    <Property Name="AdharCardId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AdminLogin">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="char" MaxLength="30" Nullable="false" />
+    <Property Name="Password" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="BankstatementDocument">
+    <Key>
+      <PropertyRef Name="BankStatmentId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="BankstatementDocumentUrl" Type="varchar(max)" Nullable="false" />
+    <Property Name="BankStatmentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BasicDetails">
+    <Key>
+      <PropertyRef Name="BasicDetailsId" />
+    </Key>
+    <Property Name="BasicDetailsId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="varchar(max)" Nullable="false" />
+    <Property Name="EmailId" Type="varchar(max)" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" />
+    <Property Name="PANCard" Type="varchar(max)" Nullable="false" />
+    <Property Name="AdharCard" Type="varchar(max)" Nullable="false" />
+    <Property Name="KYCStatus" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ContactUser">
+    <Key>
+      <PropertyRef Name="ContactId" />
+    </Key>
+    <Property Name="ContactId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmailId" Type="varchar(max)" Nullable="false" />
+    <Property Name="Message" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ErrorLog">
+    <Key>
+      <PropertyRef Name="ErrorLogId" />
+    </Key>
+    <Property Name="ErrorLogId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Message" Type="varchar(max)" />
+    <Property Name="InnerException" Type="varchar(max)" />
+    <Property Name="Data" Type="varchar(max)" />
+    <Property Name="Source" Type="varchar(max)" />
+    <Property Name="TargetSite" Type="varchar(max)" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="IDCardDocument">
+    <Key>
+      <PropertyRef Name="IdCardNo" />
+    </Key>
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="IDCardUrl" Type="varchar(max)" Nullable="false" />
+    <Property Name="IdCardNo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoanDetails">
+    <Key>
+      <PropertyRef Name="LoanDetailsId" />
+    </Key>
+    <Property Name="LoanDetailsId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" />
+    <Property Name="LoanStatus" Type="varchar(max)" Nullable="false" />
+    <Property Name="LoanAmount" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="InterestRate" Type="int" Nullable="false" />
+    <Property Name="ProcessFee" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="LatePaymentCharges" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Duration" Type="varchar(max)" Nullable="false" />
+    <Property Name="DueDate" Type="datetime" Nullable="false" />
+    <Property Name="PaymentReferenceNo" Type="varchar(max)" />
+    <Property Name="LoanTransactionNo" Type="varchar(max)" />
+    <Property Name="DateofLoan" Type="datetime" />
+    <Property Name="PaymentDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Notification">
+    <Key>
+      <PropertyRef Name="NotificationId" />
+    </Key>
+    <Property Name="NotificationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" />
+    <Property Name="Title" Type="varchar(max)" />
+    <Property Name="Message" Type="varchar(max)" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Status" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="OneTimeFee">
+    <Key>
+      <PropertyRef Name="OneTimeFeeID" />
+    </Key>
+    <Property Name="OneTimeFeeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" />
+    <Property Name="FeeTransactionNo" Type="varchar(max)" />
+    <Property Name="Fee" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Status" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="PANCardDocument">
+    <Key>
+      <PropertyRef Name="PANCardId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="PANCardUrl" Type="varchar(max)" Nullable="false" />
+    <Property Name="PANCardId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Payments">
+    <Key>
+      <PropertyRef Name="PaymentsId" />
+    </Key>
+    <Property Name="PaymentsId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LoanAmount" Type="varchar(max)" Nullable="false" />
+    <Property Name="Intrest" Type="varchar(max)" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="ProessingFee" Type="varchar(max)" Nullable="false" />
+    <Property Name="DueDate" Type="varchar(max)" Nullable="false" />
+    <Property Name="PaymentStatus" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="PaySlipDocument">
+    <Key>
+      <PropertyRef Name="PayslipId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="PaySlipUrl" Type="varchar(max)" Nullable="false" />
+    <Property Name="PayslipId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PersonalDetails">
+    <Key>
+      <PropertyRef Name="PersonalDetailsId" />
+    </Key>
+    <Property Name="PersonalDetailsId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" />
+    <Property Name="FatherName" Type="varchar(max)" Nullable="false" />
+    <Property Name="MotherName" Type="varchar(max)" Nullable="false" />
+    <Property Name="DOB" Type="varchar(max)" />
+    <Property Name="MaritalStatus" Type="varchar(max)" Nullable="false" />
+    <Property Name="CurrentAddress" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProfessionalDetails">
+    <Key>
+      <PropertyRef Name="ProfessionalDetailsId" />
+    </Key>
+    <Property Name="ProfessionalDetailsId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" />
+    <Property Name="CompanyName" Type="varchar(max)" Nullable="false" />
+    <Property Name="MonthlyIncome" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="YearOfExperience" Type="varchar(max)" Nullable="false" />
+    <Property Name="CurrentEMI" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="CompanyAddress" Type="varchar(max)" Nullable="false" />
+    <Property Name="CompanyEmailId" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ReferenceDetails">
+    <Key>
+      <PropertyRef Name="ReferenceId" />
+    </Key>
+    <Property Name="ReferenceId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" />
+    <Property Name="Reference1" Type="varchar(max)" />
+    <Property Name="ReferenceName1" Type="varchar(max)" />
+    <Property Name="Reference2" Type="varchar(max)" />
+    <Property Name="ReferenceName2" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Register">
+    <Key>
+      <PropertyRef Name="PhoneNumber" />
+    </Key>
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Status" Type="varchar(max)" Nullable="false" />
+    <Property Name="CRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SelfieDocument">
+    <Key>
+      <PropertyRef Name="SelfieId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="SelfieUrl" Type="varchar(max)" Nullable="false" />
+    <Property Name="SelfieId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SignatureDocument">
+    <Key>
+      <PropertyRef Name="SignatureId" />
+    </Key>
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="SignatureUrl" Type="varchar(max)" Nullable="false" />
+    <Property Name="SignatureId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserContact">
+    <Key>
+      <PropertyRef Name="ContactID" />
+    </Key>
+    <Property Name="ContactID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Message" Type="varchar(max)" />
+    <Property Name="Status" Type="varchar(max)" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <Association Name="FK__AdharCard__Phone__286302EC">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="AdharCardDocument" Type="Self.AdharCardDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="AdharCardDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bankstate__Phone__36B12243">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="BankstatementDocument" Type="Self.BankstatementDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="BankstatementDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BasicDeta__Phone__15502E78">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="BasicDetails" Type="Self.BasicDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="BasicDetails">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__IDCardDoc__Phone__34C8D9D1">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="IDCardDocument" Type="Self.IDCardDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="IDCardDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LoanDetai__Phone__20C1E124">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="LoanDetails" Type="Self.LoanDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="LoanDetails">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notificat__Phone__440B1D61">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="Notification" Type="Self.Notification" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="Notification">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PANCardDo__Phone__2F10007B">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="PANCardDocument" Type="Self.PANCardDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="PANCardDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Payments__PhoneN__2B3F6F97">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="Payments" Type="Self.Payments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="Payments">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PaySlipDo__Phone__2D27B809">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="PaySlipDocument" Type="Self.PaySlipDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="PaySlipDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PersonalD__Phone__182C9B23">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="PersonalDetails" Type="Self.PersonalDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="PersonalDetails">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Processin__Phone__239E4DCF">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="OneTimeFee" Type="Self.OneTimeFee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="OneTimeFee">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Professio__Phone__1B0907CE">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="ProfessionalDetails" Type="Self.ProfessionalDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="ProfessionalDetails">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reference__Phone__1DE57479">
+    <End Role="Register" Type="Self.Register" Multiplicity="0..1" />
+    <End Role="ReferenceDetails" Type="Self.ReferenceDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="ReferenceDetails">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SelfieDoc__Phone__30F848ED">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="SelfieDocument" Type="Self.SelfieDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="SelfieDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Signature__Phone__32E0915F">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="SignatureDocument" Type="Self.SignatureDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="SignatureDocument">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserConta__Phone__4BAC3F29">
+    <End Role="Register" Type="Self.Register" Multiplicity="1" />
+    <End Role="UserContact" Type="Self.UserContact" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="UserContact">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GTLOANModelStoreContainer">
+    <EntitySet Name="AdharCardDocument" EntityType="Self.AdharCardDocument" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="AdminLogin" EntityType="Self.AdminLogin" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="BankstatementDocument" EntityType="Self.BankstatementDocument" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="BasicDetails" EntityType="Self.BasicDetails" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="ContactUser" EntityType="Self.ContactUser" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="ErrorLog" EntityType="Self.ErrorLog" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="IDCardDocument" EntityType="Self.IDCardDocument" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="LoanDetails" EntityType="Self.LoanDetails" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="Notification" EntityType="Self.Notification" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="OneTimeFee" EntityType="Self.OneTimeFee" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="PANCardDocument" EntityType="Self.PANCardDocument" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="Payments" EntityType="Self.Payments" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="PaySlipDocument" EntityType="Self.PaySlipDocument" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="PersonalDetails" EntityType="Self.PersonalDetails" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="ProfessionalDetails" EntityType="Self.ProfessionalDetails" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="ReferenceDetails" EntityType="Self.ReferenceDetails" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="Register" EntityType="Self.Register" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="SelfieDocument" EntityType="Self.SelfieDocument" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="SignatureDocument" EntityType="Self.SignatureDocument" Schema="whitehorse" store:Type="Tables" />
+    <EntitySet Name="UserContact" EntityType="Self.UserContact" Schema="whitehorse" store:Type="Tables" />
+    <AssociationSet Name="FK__AdharCard__Phone__286302EC" Association="Self.FK__AdharCard__Phone__286302EC">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="AdharCardDocument" EntitySet="AdharCardDocument" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bankstate__Phone__36B12243" Association="Self.FK__Bankstate__Phone__36B12243">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="BankstatementDocument" EntitySet="BankstatementDocument" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BasicDeta__Phone__15502E78" Association="Self.FK__BasicDeta__Phone__15502E78">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="BasicDetails" EntitySet="BasicDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__IDCardDoc__Phone__34C8D9D1" Association="Self.FK__IDCardDoc__Phone__34C8D9D1">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="IDCardDocument" EntitySet="IDCardDocument" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LoanDetai__Phone__20C1E124" Association="Self.FK__LoanDetai__Phone__20C1E124">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="LoanDetails" EntitySet="LoanDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notificat__Phone__440B1D61" Association="Self.FK__Notificat__Phone__440B1D61">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="Notification" EntitySet="Notification" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PANCardDo__Phone__2F10007B" Association="Self.FK__PANCardDo__Phone__2F10007B">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="PANCardDocument" EntitySet="PANCardDocument" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Payments__PhoneN__2B3F6F97" Association="Self.FK__Payments__PhoneN__2B3F6F97">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="Payments" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PaySlipDo__Phone__2D27B809" Association="Self.FK__PaySlipDo__Phone__2D27B809">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="PaySlipDocument" EntitySet="PaySlipDocument" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PersonalD__Phone__182C9B23" Association="Self.FK__PersonalD__Phone__182C9B23">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="PersonalDetails" EntitySet="PersonalDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Processin__Phone__239E4DCF" Association="Self.FK__Processin__Phone__239E4DCF">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="OneTimeFee" EntitySet="OneTimeFee" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Professio__Phone__1B0907CE" Association="Self.FK__Professio__Phone__1B0907CE">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="ProfessionalDetails" EntitySet="ProfessionalDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reference__Phone__1DE57479" Association="Self.FK__Reference__Phone__1DE57479">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="ReferenceDetails" EntitySet="ReferenceDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SelfieDoc__Phone__30F848ED" Association="Self.FK__SelfieDoc__Phone__30F848ED">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="SelfieDocument" EntitySet="SelfieDocument" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Signature__Phone__32E0915F" Association="Self.FK__Signature__Phone__32E0915F">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="SignatureDocument" EntitySet="SignatureDocument" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserConta__Phone__4BAC3F29" Association="Self.FK__UserConta__Phone__4BAC3F29">
+      <End Role="Register" EntitySet="Register" />
+      <End Role="UserContact" EntitySet="UserContact" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
